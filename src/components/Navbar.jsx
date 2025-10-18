@@ -9,7 +9,7 @@ export default function Navbar() {
       </div>
 
       <div className="flex w-4/6 justify-center gap-5 text-lg font-bold">
-        {['Home', 'About', 'Projects', 'Contact'].map((item) => (
+        {['Home', 'About', 'Stacks'].map((item) => (
           <a
             key={item}
             href={`#${item.toLowerCase()}`}
